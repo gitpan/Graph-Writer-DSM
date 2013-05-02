@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Graph/Writer/DSM.pm
+lib/Graph/Writer/DSM/Test.pm
+t/graph-writer-dsm.t
