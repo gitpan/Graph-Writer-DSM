@@ -30,11 +30,12 @@ my %WriteMakefileArgs = (
     "Graph::Writer" => 0,
     "List::MoreUtils" => 0,
     "Modern::Perl" => 0,
+    "Module::Install::Can" => 0,
     "Test::Class" => 0,
     "Test::TempDir" => 0,
     "base" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

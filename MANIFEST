@@ -3,6 +3,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+Vagrantfile
 dist.ini
 lib/Graph/Writer/DSM.pm
 lib/Graph/Writer/DSM/Test.pm
