@@ -12,9 +12,13 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "draw graph as a DSM matrix",
   "AUTHOR" => "Joenio Costa <joenio\@colivre.coop.br>",
   "BUILD_REQUIRES" => {
+    "File::Path" => 0,
     "Graph" => 0,
+    "Module::Install::Can" => 0,
+    "Test::Class" => 0,
     "Test::File" => 0,
-    "Test::Most" => 0
+    "Test::Most" => 0,
+    "Test::TempDir" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -25,19 +29,15 @@ my %WriteMakefileArgs = (
   "NAME" => "Graph::Writer::DSM",
   "PREREQ_PM" => {
     "Chart::Gnuplot" => 0,
-    "File::Path" => 0,
     "File::Temp" => 0,
     "Graph::Writer" => 0,
     "List::MoreUtils" => 0,
     "Modern::Perl" => 0,
-    "Module::Install::Can" => 0,
-    "Test::Class" => 0,
-    "Test::TempDir" => 0,
     "base" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
-    "TESTS" => "t/*.t"
+    "TESTS" => "t/Graph/Writer/*.t"
   }
 );
 

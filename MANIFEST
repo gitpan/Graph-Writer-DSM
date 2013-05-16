@@ -6,5 +6,5 @@ README
 Vagrantfile
 dist.ini
 lib/Graph/Writer/DSM.pm
-lib/Graph/Writer/DSM/Test.pm
-t/graph-writer-dsm.t
+t/Graph/Writer/DSM.t
+t/Graph/Writer/DSM/Test.pm
