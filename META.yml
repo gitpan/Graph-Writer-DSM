@@ -26,4 +26,4 @@ requires:
   List::MoreUtils: 0
   Modern::Perl: 0
   base: 0
-version: 0.003
+version: 0.004

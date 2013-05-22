@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     "Modern::Perl" => 0,
     "base" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/Graph/Writer/*.t"
   }
