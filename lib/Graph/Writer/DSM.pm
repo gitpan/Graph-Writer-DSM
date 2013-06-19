@@ -1,4 +1,7 @@
 package Graph::Writer::DSM;
+{
+  $Graph::Writer::DSM::VERSION = '0.006';
+}
 use Modern::Perl;
 use base qw( Graph::Writer );
 use List::MoreUtils qw( uniq first_index apply );
@@ -8,6 +11,10 @@ use File::Temp;
 =head1 NAME
 
 Graph::Writer::DSM - draw graph as a DSM matrix
+
+=head1 VERSION
+
+version 0.006
 
 =head1 DESCRIPTION
 
